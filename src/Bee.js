@@ -7,5 +7,4 @@ var Bee = function() {
 
 Bee.prototype = Object.create(Grub.prototype);
 
-Bee.constructor = Bee;
-
+Bee.prototype.constructor = Bee;
